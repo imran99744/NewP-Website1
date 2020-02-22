@@ -1,19 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
 h1{
-    font-size: 50px;
-}
-.name-heiglight{
-    color: orange;
-}
-h2{
     font-size: 40px;
 }
-p{
-    color: dimgray;
+.name-heiglight{
+        color: orange;
 }
+
 .half-width{
     width: 40%;
     float: left;
@@ -22,12 +16,35 @@ p{
 }
 .half-width img{
     width: 100%;
+
 }
 
-.section1{
+.Section1{
     background-image: url("Images2/header-bg.png");
     background-repeat: no-repeat;
+    background-position: center;
 }
+section{
+    height: 500px; 
+    padding-bottom: 300px;
+ }
+ 
+ .Link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.mid-area{
+    background-image: url("Images2/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
 .Link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon,tomato);
@@ -36,6 +53,60 @@ p{
     color:white;
     font-weight: 700;
 }
+.work-bg{
+    background-image: url("Images2/latest-work-bg.png");
+}
+.text-center{
+    text-align: center;
+    font-size: ;
+}
+.row {
+    display: flex;
+    
+  }
+  
+.colum{
+    flex: 33.33%;
+    padding: 5px;
+}
+.colum{
+    float: left;
+    width: 33.33%;
+}
+.full-width{
+    text-align: center;
+    font-size: 20px;
+}
+.footer-bg{
+   background-image:  url("Images2/footer-bg.png");
+   background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.Container{
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    margin-left: 300px;
+    background-image: linear-gradient(deeppink, rgb(196, 72, 130));
+    color: white;
+}
+
+.Footer-Text-Center{
+    text-align: center;
+    color: orangered;
+}
+.box p h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+ 
+   
+
+
+
 
 
     
